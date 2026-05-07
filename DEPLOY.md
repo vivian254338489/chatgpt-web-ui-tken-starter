@@ -13,6 +13,20 @@
 2. Vercel will use `vercel.json`.
 3. Deploy.
 
+## Health Check
+
+After deploy, verify:
+
+```bash
+curl https://YOUR_DEPLOYMENT_URL/health
+```
+
+Expected response:
+
+```json
+{"ok":true,"app":"chatgpt-web-ui-tken-starter"}
+```
+
 ## Docker
 
 ```bash

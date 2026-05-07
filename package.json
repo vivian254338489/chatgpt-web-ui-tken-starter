@@ -1,8 +1,28 @@
 {
   "name": "chatgpt-web-ui-tken-starter",
   "version": "0.1.0",
+  "description": "ChatGPT-style Web UI starter for TKEN and OpenAI-compatible APIs.",
   "private": false,
   "type": "module",
+  "homepage": "https://github.com/vivian254338489/chatgpt-web-ui-tken-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivian254338489/chatgpt-web-ui-tken-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vivian254338489/chatgpt-web-ui-tken-starter/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "chatgpt-web-ui",
+    "openai-compatible",
+    "tken",
+    "ai-gateway",
+    "llm-router",
+    "vercel",
+    "railway",
+    "docker"
+  ],
   "scripts": {
     "start": "node server.mjs",
     "preflight": "node preflight.mjs",
